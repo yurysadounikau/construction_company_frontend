@@ -1,0 +1,40 @@
+/* Sidebar.css */
+.sidebar {
+  background-color: #ffffff;
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.sidebar-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-link {
+  margin-bottom: 5px;
+}
+
+.sidebar-link .link {
+  display: block;
+  width: 100%;
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.sidebar-link .link .icon {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+.link:hover {
+  background-color: #eeeeee;
+}
